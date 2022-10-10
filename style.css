@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #032846;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    box-sizing: border-box;
+    border: 0px;
+    background-image: radial-gradient(circle at 38.82% 91.72%, #dbffb5 0, #e0ffa5 7.14%, #e4f894 14.29%, #e8ee83 21.43%, #ece272 28.57%, #eed460 35.71%, #f1c54e 42.86%, #f2b53c 50%, #f3a42c 57.14%, #f69221 64.29%, #f8811d 71.43%, #fb6f1f 78.57%, #fd5c26 85.71%, #ff4730 92.86%, #ff2e3b 100%);
+}
+.camera{
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #032846;
+    margin-bottom: 45px;
+}
+.camera>svg{
+    width: 60%;
+}
+.central{
+    height: 90vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+.login{
+    margin-bottom: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.div-login{
+    margin-bottom: 30px;
+    width: 24vw;
+    border-bottom: 2px solid #032846;
+}
+.div-login>input{
+    border: none;
+    background-color: transparent;
+    width: 85%;
+}
+.div-login>input::placeholder{
+   font-size: 13pt;
+   font-family: 'Poppins', sans-serif;
+   color: #334757;
+}
+.div-login>label{
+    margin-right: 20px;
+}
+.options{
+    margin-bottom: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.options>a{
+    font-style: italic;
+    text-decoration: none;
+    color: #032846;
+}
+.options>a:visited{
+    color: #032846;
+}
+.bnt-login{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.bnt-login>button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #032846;
+    letter-spacing: 2px;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    padding: 20px;
+}
+.bnt-login>button:hover{
+    color: #032846;
+    background-color: transparent;
+    border: 3px solid #032846;
+}
+
